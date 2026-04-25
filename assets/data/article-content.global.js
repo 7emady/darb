@@ -1,0 +1,1 @@
+﻿window.DARB_ARTICLE_CONTENT = {}

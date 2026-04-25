@@ -1,0 +1,12 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 780">
+  <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#07101f"/><stop offset="1" stop-color="#020916"/></linearGradient></defs>
+  <rect width="1400" height="780" fill="url(#bg)"/>
+  <g transform="translate(240 185)" opacity=".9">
+    <rect x="0" y="95" width="310" height="170" rx="28" fill="none" stroke="#fff" stroke-width="4"/><text x="155" y="160" text-anchor="middle" fill="#fff" font-size="34" font-family="Arial" font-weight="700">STRATEGY</text><text x="155" y="205" text-anchor="middle" fill="#ef7d20" font-size="22" font-family="Arial">PLANNING</text>
+    <rect x="410" y="95" width="310" height="170" rx="28" fill="none" stroke="#fff" stroke-width="4"/><text x="565" y="160" text-anchor="middle" fill="#fff" font-size="34" font-family="Arial" font-weight="700">DATA</text><text x="565" y="205" text-anchor="middle" fill="#15B8B0" font-size="22" font-family="Arial">ANALYSIS</text>
+    <rect x="820" y="95" width="310" height="170" rx="28" fill="none" stroke="#fff" stroke-width="4"/><text x="975" y="160" text-anchor="middle" fill="#fff" font-size="34" font-family="Arial" font-weight="700">GROWTH</text><text x="975" y="205" text-anchor="middle" fill="#ef7d20" font-size="22" font-family="Arial">EXECUTION</text>
+    <path d="M310 180h100M720 180h100" stroke="#ef7d20" stroke-width="9" stroke-linecap="round"/><path d="M390 155l35 25-35 25M800 155l35 25-35 25" fill="none" stroke="#ef7d20" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M155 265v95h820v-95" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="14 14" opacity=".65"/>
+  </g>
+  <circle cx="248" cy="365" r="90" fill="#ef7d20" opacity=".12"/>
+</svg>

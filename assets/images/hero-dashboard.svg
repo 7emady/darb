@@ -1,0 +1,11 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 780">
+  <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#050b18"/><stop offset="1" stop-color="#113f92"/></linearGradient><linearGradient id="o" x1="0" x2="1"><stop stop-color="#ef7d20"/><stop offset="1" stop-color="#f8d66d"/></linearGradient></defs>
+  <rect width="1400" height="780" fill="url(#bg)"/>
+  <g opacity=".22" stroke="#fff"><path d="M0 160h1400M0 310h1400M0 460h1400M0 610h1400"/><path d="M180 0v780M380 0v780M580 0v780M780 0v780M980 0v780M1180 0v780"/></g>
+  <g transform="translate(220 120)">
+    <path d="M0 470C120 410 185 520 295 405S465 215 605 310s230 15 330-160" fill="none" stroke="url(#o)" stroke-width="18" stroke-linecap="round" opacity=".95"/>
+    <path d="M0 530C120 500 210 460 320 500s190 10 300-90s210-120 340-85" fill="none" stroke="#15B8B0" stroke-width="12" stroke-linecap="round" opacity=".8"/>
+    <g transform="translate(720 75)"><circle r="92" fill="none" stroke="#15B8B0" stroke-width="20"/><path d="M0-92a92 92 0 0 1 78 141" fill="none" stroke="#ef7d20" stroke-width="20"/><text y="8" text-anchor="middle" fill="#fff" font-size="34" font-family="Arial" font-weight="700">89%</text></g>
+    <g transform="translate(960 235)"><circle r="70" fill="none" stroke="#f8d66d" stroke-width="16"/><path d="M0-70a70 70 0 0 1 58 109" fill="none" stroke="#ef7d20" stroke-width="16"/><text y="8" text-anchor="middle" fill="#fff" font-size="28" font-family="Arial" font-weight="700">64%</text></g>
+  </g>
+</svg>

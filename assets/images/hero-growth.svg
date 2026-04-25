@@ -1,0 +1,53 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 780">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#082b63"/>
+      <stop offset="0.55" stop-color="#061a2f"/>
+      <stop offset="1" stop-color="#020916"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7fb4ff"/>
+      <stop offset="0.5" stop-color="#0b56bc"/>
+      <stop offset="1" stop-color="#03173b"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" x2="1">
+      <stop offset="0" stop-color="#f8b24b"/>
+      <stop offset="1" stop-color="#ef7d20"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="780" fill="url(#bg)"/>
+  <circle cx="1120" cy="160" r="260" fill="#0b56bc" opacity=".18"/>
+  <circle cx="260" cy="620" r="300" fill="#ef7d20" opacity=".08"/>
+  <g opacity=".18" stroke="#fff" stroke-width="1">
+    <path d="M70 120h1260M70 260h1260M70 400h1260M70 540h1260M70 680h1260"/>
+    <path d="M180 70v640M360 70v640M540 70v640M720 70v640M900 70v640M1080 70v640M1260 70v640"/>
+  </g>
+  <g transform="translate(590 165)">
+    <g opacity=".88">
+      <rect x="0" y="255" width="120" height="270" rx="7" fill="url(#bar)"/>
+      <polygon points="0,255 55,232 175,232 120,255" fill="#b8d7ff" opacity=".9"/>
+      <polygon points="120,255 175,232 175,500 120,525" fill="#052f74"/>
+      <rect x="190" y="175" width="120" height="350" rx="7" fill="url(#bar)"/>
+      <polygon points="190,175 245,152 365,152 310,175" fill="#cbe2ff" opacity=".92"/>
+      <polygon points="310,175 365,152 365,500 310,525" fill="#052f74"/>
+      <rect x="380" y="210" width="120" height="315" rx="7" fill="url(#bar)"/>
+      <polygon points="380,210 435,187 555,187 500,210" fill="#b8d7ff" opacity=".88"/>
+      <polygon points="500,210 555,187 555,500 500,525" fill="#052f74"/>
+      <rect x="570" y="80" width="120" height="445" rx="7" fill="url(#bar)"/>
+      <polygon points="570,80 625,57 745,57 690,80" fill="#e4f0ff" opacity=".95"/>
+      <polygon points="690,80 745,57 745,500 690,525" fill="#052f74"/>
+    </g>
+    <path d="M-125 495C60 468 216 421 345 347C480 269 594 169 742 112" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M650 87L760 102L695 194" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+    <path d="M-125 495C60 468 216 421 345 347C480 269 594 169 742 112" fill="none" stroke="url(#orange)" stroke-width="5" stroke-linecap="round" opacity=".85"/>
+  </g>
+  <g transform="translate(145 180)" opacity=".65" fill="none" stroke="#fff" stroke-width="3">
+    <circle cx="0" cy="0" r="42"/><path d="M-13 12V0M0 12v-24M13 12v-34"/>
+    <circle cx="190" cy="150" r="38"/><path d="M172 150h36M190 132v36"/>
+    <circle cx="75" cy="345" r="36"/><path d="M57 345h36M75 327v36"/>
+  </g>
+</svg>

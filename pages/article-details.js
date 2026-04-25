@@ -1,0 +1,1 @@
+﻿/* static article details helper */
