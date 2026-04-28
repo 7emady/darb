@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>طلب استشارة</title>
-
     <link rel="stylesheet" href="assets/css/site.css" />
   </head>
 
@@ -14,18 +13,25 @@
 
       <form id="contactForm">
         <input
-          type="text"
           id="name"
+          type="text"
           placeholder="الاسم"
           required
           style="width: 100%; padding: 10px; margin: 10px 0"
         />
 
         <input
-          type="tel"
           id="phone"
+          type="tel"
           placeholder="رقم الجوال"
           required
+          style="width: 100%; padding: 10px; margin: 10px 0"
+        />
+
+        <input
+          id="email"
+          type="email"
+          placeholder="البريد الإلكتروني"
           style="width: 100%; padding: 10px; margin: 10px 0"
         />
 
@@ -33,50 +39,86 @@
           id="message"
           placeholder="اكتب طلبك"
           required
-          style="width: 100%; padding: 10px; margin: 10px 0"
+          style="width: 100%; padding: 10px; margin: 10px 0; min-height: 130px"
         ></textarea>
 
-        <button type="submit" style="padding: 10px 20px">إرسال</button>
+        <button
+          type="submit"
+          style="
+            width: 100%;
+            padding: 14px;
+            border: 0;
+            border-radius: 30px;
+            background: #f59e0b;
+            font-weight: bold;
+            cursor: pointer;
+          "
+        >
+          إرسال
+        </button>
+
+        <p id="formStatus" style="margin-top: 15px"></p>
       </form>
     </div>
 
-    <!-- config -->
     <script>
-      window.DARB_SITE_CONFIG = {
-        phone: "966567436557",
-        googleSheetsWebAppUrl:
-          "https://script.google.com/macros/s/AKfycbwKc4qf9k4v3Azt1n_tYUNeTv0go-9PJAyYoJzL42LfzFnG24RMD4_7cjzqFHUNRrc0mw/exec",
-      };
-    </script>
+      const GOOGLE_SCRIPT_URL =
+        "https://script.google.com/macros/s/AKfycbwKc4qf9k4v3Azt1n_tYUNeTv0go-9PJAyYoJzL42LfzFnG24RMD4_7cjzqFHUNRrc0mw/exec";
 
-    <!-- script -->
-    <script>
+      const WHATSAPP_NUMBER = "966567436557";
+
       document
         .getElementById("contactForm")
         .addEventListener("submit", async function (e) {
           e.preventDefault();
 
-          const name = document.getElementById("name").value;
-          const phone = document.getElementById("phone").value;
-          const message = document.getElementById("message").value;
+          const status = document.getElementById("formStatus");
 
-          // Google Sheets
-          await fetch(window.DARB_SITE_CONFIG.googleSheetsWebAppUrl, {
-            method: "POST",
-            body: JSON.stringify({ name, phone, message }),
-            headers: { "Content-Type": "application/json" },
-          });
+          const name = document.getElementById("name").value.trim();
+          const phone = document.getElementById("phone").value.trim();
+          const email = document.getElementById("email").value.trim();
+          const message = document.getElementById("message").value.trim();
 
-          // WhatsApp
-          const text = `طلب جديد:
+          const data = {
+            name,
+            phone,
+            email,
+            message,
+            submittedAt: new Date().toISOString(),
+          };
+
+          status.textContent = "جار إرسال الطلب...";
+
+          try {
+            await fetch(GOOGLE_SCRIPT_URL, {
+              method: "POST",
+              mode: "no-cors",
+              headers: {
+                "Content-Type": "text/plain;charset=utf-8",
+              },
+              body: JSON.stringify(data),
+            });
+
+            const whatsappText = `طلب استشارة جديد:
 الاسم: ${name}
 الجوال: ${phone}
-الرسالة: ${message}`;
+البريد الإلكتروني: ${email || "غير مذكور"}
+التفاصيل: ${message}`;
 
-          const url = `https://wa.me/${window.DARB_SITE_CONFIG.phone}?text=${encodeURIComponent(text)}`;
-          window.open(url, "_blank");
+            window.open(
+              "https://wa.me/" +
+                WHATSAPP_NUMBER +
+                "?text=" +
+                encodeURIComponent(whatsappText),
+              "_blank",
+            );
 
-          alert("تم الإرسال");
+            status.textContent = "تم إرسال الطلب بنجاح";
+            this.reset();
+          } catch (error) {
+            console.error(error);
+            status.textContent = "حدث خطأ أثناء الإرسال";
+          }
         });
     </script>
   </body>
