@@ -54,71 +54,32 @@
             cursor: pointer;
           "
         >
-          إرسال
+          إرسال عبر واتساب
         </button>
-
-        <p id="formStatus" style="margin-top: 15px"></p>
       </form>
     </div>
 
     <script>
-      const GOOGLE_SCRIPT_URL =
-        "https://script.google.com/macros/s/AKfycbwKc4qf9k4v3Azt1n_tYUNeTv0go-9PJAyYoJzL42LfzFnG24RMD4_7cjzqFHUNRrc0mw/exec";
-
-      const WHATSAPP_NUMBER = "966567436557";
-
       document
         .getElementById("contactForm")
-        .addEventListener("submit", async function (e) {
+        .addEventListener("submit", function (e) {
           e.preventDefault();
-
-          const status = document.getElementById("formStatus");
 
           const name = document.getElementById("name").value.trim();
           const phone = document.getElementById("phone").value.trim();
           const email = document.getElementById("email").value.trim();
           const message = document.getElementById("message").value.trim();
 
-          const data = {
-            name,
-            phone,
-            email,
-            message,
-            submittedAt: new Date().toISOString(),
-          };
-
-          status.textContent = "جار إرسال الطلب...";
-
-          try {
-            await fetch(GOOGLE_SCRIPT_URL, {
-              method: "POST",
-              mode: "no-cors",
-              headers: {
-                "Content-Type": "text/plain;charset=utf-8",
-              },
-              body: JSON.stringify(data),
-            });
-
-            const whatsappText = `طلب استشارة جديد:
+          const text = `طلب استشارة جديد:
 الاسم: ${name}
 الجوال: ${phone}
 البريد الإلكتروني: ${email || "غير مذكور"}
 التفاصيل: ${message}`;
 
-            window.open(
-              "https://wa.me/" +
-                WHATSAPP_NUMBER +
-                "?text=" +
-                encodeURIComponent(whatsappText),
-              "_blank",
-            );
+          const whatsappUrl =
+            "https://wa.me/966567436557?text=" + encodeURIComponent(text);
 
-            status.textContent = "تم إرسال الطلب بنجاح";
-            this.reset();
-          } catch (error) {
-            console.error(error);
-            status.textContent = "حدث خطأ أثناء الإرسال";
-          }
+          window.location.href = whatsappUrl;
         });
     </script>
   </body>
