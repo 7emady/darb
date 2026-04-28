@@ -19,7 +19,6 @@
           required
           style="width: 100%; padding: 10px; margin: 10px 0"
         />
-
         <input
           id="phone"
           type="tel"
@@ -27,14 +26,12 @@
           required
           style="width: 100%; padding: 10px; margin: 10px 0"
         />
-
         <input
           id="email"
           type="email"
           placeholder="البريد الإلكتروني"
           style="width: 100%; padding: 10px; margin: 10px 0"
         />
-
         <textarea
           id="message"
           placeholder="اكتب طلبك"
@@ -60,27 +57,35 @@
     </div>
 
     <script>
-      document
-        .getElementById("contactForm")
-        .addEventListener("submit", function (e) {
-          e.preventDefault();
+      const form = document.getElementById("contactForm");
 
-          const name = document.getElementById("name").value.trim();
-          const phone = document.getElementById("phone").value.trim();
-          const email = document.getElementById("email").value.trim();
-          const message = document.getElementById("message").value.trim();
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
 
-          const text = `طلب استشارة جديد:
-الاسم: ${name}
-الجوال: ${phone}
-البريد الإلكتروني: ${email || "غير مذكور"}
-التفاصيل: ${message}`;
+        const name = document.getElementById("name").value.trim();
+        const phone = document.getElementById("phone").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const message = document.getElementById("message").value.trim();
 
-          const whatsappUrl =
-            "https://wa.me/966567436557?text=" + encodeURIComponent(text);
+        const text =
+          "طلب استشارة جديد:%0A" +
+          "الاسم: " +
+          encodeURIComponent(name) +
+          "%0A" +
+          "الجوال: " +
+          encodeURIComponent(phone) +
+          "%0A" +
+          "البريد الإلكتروني: " +
+          encodeURIComponent(email || "غير مذكور") +
+          "%0A" +
+          "التفاصيل: " +
+          encodeURIComponent(message);
 
-          window.location.href = whatsappUrl;
-        });
+        const whatsappUrl =
+          "https://api.whatsapp.com/send?phone=966567436557&text=" + text;
+
+        window.open(whatsappUrl, "_blank");
+      });
     </script>
   </body>
 </html>
