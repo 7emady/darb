@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Business consulting meeting with reports and laptop">
+  <defs>
+    <linearGradient id="room" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset=".58" stop-color="#f1f5fa"/>
+      <stop offset="1" stop-color="#dfe8f2"/>
+    </linearGradient>
+    <linearGradient id="table" x1="0" x2="1">
+      <stop offset="0" stop-color="#f9fbfd"/>
+      <stop offset="1" stop-color="#e8eef5"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#182338"/>
+      <stop offset="1" stop-color="#090f1d"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0d2d57"/>
+      <stop offset="1" stop-color="#08172e"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#728096" flood-opacity=".2"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="520" rx="42" fill="url(#room)"/>
+
+  <g opacity=".75">
+    <rect x="478" y="0" width="54" height="244" fill="#ffffff"/>
+    <rect x="546" y="0" width="54" height="244" fill="#ffffff"/>
+    <rect x="614" y="0" width="54" height="244" fill="#ffffff"/>
+    <rect x="682" y="0" width="54" height="244" fill="#ffffff"/>
+    <rect x="750" y="0" width="54" height="244" fill="#ffffff"/>
+    <path d="M454 122h380" stroke="#d6dee8" stroke-width="4"/>
+  </g>
+
+  <path d="M0 318c142-34 312-46 490-30 158 14 286 47 410 31v201H0z" fill="url(#table)"/>
+
+  <g filter="url(#softShadow)">
+    <path d="M517 166h300c18 0 32 14 32 32v168H520c-18 0-32-14-32-32V198c0-18 12-32 29-32z" fill="#eaf1f8"/>
+    <path d="M534 185h272c14 0 25 11 25 25v140H534z" fill="url(#screen)"/>
+    <path d="M472 366h396l34 38H424z" fill="#dce6f0"/>
+    <path d="M566 378h174l14 14H548z" fill="#b8c6d6"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="294" y="96" width="216" height="258" rx="16" transform="rotate(-7 402 225)" fill="#ffffff"/>
+    <path d="M328 152l142-18M332 190l116-14M337 229l134-16" stroke="#cad5e2" stroke-width="8" stroke-linecap="round"/>
+    <g transform="rotate(-7 402 225)">
+      <rect x="336" y="264" width="18" height="46" fill="#f4c98b"/>
+      <rect x="364" y="246" width="18" height="64" fill="#efb26a"/>
+      <rect x="392" y="274" width="18" height="36" fill="#f4d5aa"/>
+      <rect x="420" y="229" width="18" height="81" fill="#ef9f4b"/>
+      <rect x="448" y="252" width="18" height="58" fill="#f2c080"/>
+    </g>
+    <path d="M326 323c42-54 94-76 156-106" stroke="#8ba0b4" stroke-width="4" fill="none"/>
+  </g>
+
+  <g>
+    <path d="M132 0c55 74 83 143 83 210 0 64-45 105-116 121L0 352V0z" fill="url(#suit)"/>
+    <path d="M0 46c56 24 91 58 105 102 15 45 5 91-31 139L0 306z" fill="#163e73" opacity=".65"/>
+    <path d="M132 314c76-21 157-18 224 10 35 15 44 55 15 76-22 16-58 17-101 4l-150-46z" fill="#e4b18c"/>
+    <path d="M211 397c-58-12-126-30-211-54v177h342c-4-48-45-91-131-123z" fill="#0b2446"/>
+  </g>
+
+  <g>
+    <path d="M265 402l205 31c24 4 37 27 26 45-10 17-36 25-61 18l-222-59z" fill="#e5b391"/>
+    <path d="M214 438l178 46" stroke="#d49d79" stroke-width="6" stroke-linecap="round" opacity=".45"/>
+  </g>
+
+  <g>
+    <path d="M250 0h215c28 38 41 79 39 124-2 53-26 90-72 112-50 24-106 18-166-18-51-31-82-73-93-126C166 58 192 28 250 0z" fill="#ffffff"/>
+    <path d="M316 171c58 8 103 37 135 88" stroke="#e6edf4" stroke-width="14" stroke-linecap="round"/>
+    <path d="M268 235c48 12 88 31 120 58" stroke="#e6edf4" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <path d="M268 226c40 0 83 16 128 48" stroke="#1c314d" stroke-width="12" stroke-linecap="round"/>
+    <path d="M390 274l-24 50" stroke="#1c314d" stroke-width="10" stroke-linecap="round"/>
+    <path d="M363 318c32-5 65 1 98 18" stroke="#ef7d20" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="592" y="398" width="206" height="86" rx="18" fill="#263244"/>
+    <rect x="610" y="416" width="30" height="22" rx="4" fill="#56687d"/>
+    <rect x="648" y="416" width="30" height="22" rx="4" fill="#56687d"/>
+    <rect x="686" y="416" width="30" height="22" rx="4" fill="#56687d"/>
+    <rect x="724" y="416" width="56" height="22" rx="4" fill="#ef7d20"/>
+    <rect x="610" y="448" width="170" height="18" rx="4" fill="#111b2b"/>
+  </g>
+
+  <rect width="900" height="520" rx="42" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
+</svg>

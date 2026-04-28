@@ -4,7 +4,7 @@
     langName: 'English',
     nav: ['الرئيسية', 'من نحن', 'لماذا نحن', 'الخدمات', 'المشاريع', 'الشركاء', 'المدونة', 'الشهادات', 'الاعتمادات', 'تواصل معنا'],
     routes: ['/', '/#about', '/#why-choose-us', '/#products', '/#projects', '/#partners', '/#blog', '/#certificates', '/#approvals', '/#contact'],
-    extraLinks: [['طلب استشارة', '/consultingorder'], ['الأفرع', '/branches'], ['انضم إلينا', '/join_us'], ['التحقق من الشهادات', '/certificate'], ['المبادرات', '/initiatives']],
+    extraLinks: [['طلب استشارة', '/consultingorder'], ['الأفرع', '/branches'], ['التحقق من الشهادات', '/certificate'], ['المبادرات', '/initiatives']],
     legalLinks: [['الشروط والأحكام', '/terms'], ['سياسة الخصوصية', '/privacy']],
     cta: 'اطلب استشارة',
     heroEyebrow: 'استشارات إدارية وتحول رقمي في السعودية',
@@ -55,12 +55,12 @@
     approvals: ['أدلة إجرائية', 'سياسات ولوائح', 'نماذج حوكمة', 'تقارير قياس أداء'],
     contactTitle: 'تواصل معنا',
     contactText: 'تواصل مع فريقنا لمراجعة احتياجك، وتحديد نطاق العمل، وإعداد مقترح مناسب لمشروعك.',
-    form: ['الاسم', 'البريد الإلكتروني', 'رسالتك', 'إرسال'],
+    form: ['الاسم', 'رقم الجوال', 'البريد الإلكتروني', 'التفاصيل', 'إرسال'],
     processTitle: 'منهجيتنا',
     process: [['01', 'تشخيص', 'فهم الواقع وجمع البيانات وتحديد الفجوات والفرص ذات الأولوية.'], ['02', 'تصميم', 'بناء الخيارات وخارطة الطريق ومؤشرات النجاح بطريقة قابلة للتنفيذ.'], ['03', 'تنفيذ', 'تحويل المبادرات إلى إجراءات عملية ومتابعة التقدم مع الفريق.'], ['04', 'قياس', 'متابعة النتائج وتحسين المسار حسب الأثر والقيمة المحققة.']],
     branchesTitle: 'أفرعنا',
     branchesText: 'نخدم العملاء من المملكة العربية السعودية ونقدم الاستشارات حضورياً وعن بعد حسب طبيعة المشروع.',
-    branches: [['المملكة العربية السعودية', 'الرياض - نخدم جميع مناطق المملكة', '+966535815310', 'info@darb-altahadi.sa']],
+    branches: [['المملكة العربية السعودية', 'الرياض - نخدم جميع مناطق المملكة', '0567436557', 'info@darb-altahadi.sa']],
     initiatives: [['جلسات تشخيص مجانية', 'جلسات أولية لمساعدة المنشآت على تحديد أولويات التطوير.'], ['مبادرة جاهزية التحول', 'أداة تقييم مبسطة تقيس جاهزية العمليات والفرق للتحول الرقمي.'], ['نقل المعرفة', 'محتوى تدريبي وورش عمل مختصرة للفرق القيادية والتشغيلية.']],
     footerText: 'شركة استشارات سعودية بطابع عالمي، تساعد المنشآت على بناء قرارات أفضل ونمو أكثر استدامة.'
   },
@@ -69,7 +69,7 @@
     langName: 'العربية',
     nav: ['Home', 'About', 'Why us', 'Services', 'Projects', 'Partners', 'Blog', 'Certificates', 'Approvals', 'Contact'],
     routes: ['/', '/#about', '/#why-choose-us', '/#products', '/#projects', '/#partners', '/#blog', '/#certificates', '/#approvals', '/#contact'],
-    extraLinks: [['Request advisory', '/consultingorder'], ['Branches', '/branches'], ['Join us', '/join_us'], ['Certificate verification', '/certificate'], ['Initiatives', '/initiatives']],
+    extraLinks: [['Request advisory', '/consultingorder'], ['Branches', '/branches'], ['Certificate verification', '/certificate'], ['Initiatives', '/initiatives']],
     legalLinks: [['Terms', '/terms'], ['Privacy policy', '/privacy']],
     cta: 'Request advisory',
     heroEyebrow: 'Saudi consulting and digital transformation',
@@ -120,12 +120,12 @@
     approvals: ['Procedure manuals', 'Policies and regulations', 'Governance templates', 'Performance reports'],
     contactTitle: 'Contact us',
     contactText: 'Contact our team to review your need, define the scope, and prepare a suitable proposal for your project.',
-    form: ['Name', 'Email', 'Your message', 'Send'],
+    form: ['Name', 'Mobile number', 'Email', 'Details', 'Send'],
     processTitle: 'Our approach',
     process: [['01', 'Diagnose', 'Understand the current state, data, gaps, and priority opportunities.'], ['02', 'Design', 'Build options, roadmaps, and success metrics ready for execution.'], ['03', 'Deliver', 'Translate initiatives into practical actions and team routines.'], ['04', 'Measure', 'Track outcomes and refine the path based on measurable impact.']],
     branchesTitle: 'Branches',
     branchesText: 'We serve clients from Saudi Arabia, on-site and remotely depending on project needs.',
-    branches: [['Saudi Arabia', 'Riyadh - serving all regions of the Kingdom', '+966535815310', 'info@darb-altahadi.sa']],
+    branches: [['Saudi Arabia', 'Riyadh - serving all regions of the Kingdom', '0567436557', 'info@darb-altahadi.sa']],
     initiatives: [['Free diagnostic sessions', 'Initial sessions to help organizations prioritize development needs.'], ['Transformation readiness', 'A simple assessment of digital readiness across operations and teams.'], ['Knowledge transfer', 'Training content and workshops for leadership and operational teams.']],
     footerText: 'A Saudi consulting company with a global advisory standard, helping organizations make better decisions and build sustainable growth.'
   }
@@ -134,3 +134,4 @@
 export function getDictionary(locale = 'ar') {
   return dictionaries[locale] || dictionaries.ar;
 }
+

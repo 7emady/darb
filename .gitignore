@@ -1,0 +1,17 @@
+.next/
+node_modules/
+
+# Archived Next.js build/dependency output
+_archive-next/.next/
+_archive-next/node_modules/
+
+# Local verification screenshots
+_checks/
+*-check.png
+*reference-check.png
+premium-home-check*.png
+hero-position-check*.png
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

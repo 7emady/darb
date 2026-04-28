@@ -5,7 +5,7 @@
     tagline: 'استشارات | حلول رقمية',
     lang: 'English',
     quote: 'اطلب الآن',
-    nav: ['الرئيسية','من نحن','خدماتنا','التأهيل والتدريب','أعمالنا','المدونة','التحقق من الشهادات','انضم إلينا','المبادرات','تواصل معنا'],
+    nav: ['الرئيسية','من نحن','خدماتنا','منهجية العمل','الشركاء','المدونة','تواصل معنا'],
     heroBadge: 'استشارات إدارية وتحول رقمي في السعودية',
     heroTitle: 'حلول استشارية تصنع وضوح القرار وتسرّع أثر التنفيذ',
     heroText: 'ندعم المنشآت ورواد الأعمال بحلول عملية في البناء المؤسسي والحوكمة والموارد البشرية والتسويق والتقنية، مع مخرجات قابلة للتطبيق ومرتبطة بالأثر.',
@@ -47,7 +47,7 @@
     request: 'اطلب الآن',
     services: [
       ['▦','البناء المؤسسي والخدمات الإدارية',['التخطيط الاستراتيجي وبناء مؤشرات الأداء.','بناء الهوية الاستراتيجية وفق نماذج عملية.','تصميم الهياكل التنظيمية.','بناء السياسات واللوائح.','إعداد الأدلة الإجرائية.','الإشراف الإداري ودعم التنظيم الداخلي.']],
-      ['●✓','خدمات الموارد البشرية',['تصميم الهيكل التنظيمي للمنشأة.','إعداد الوصف الوظيفي وأدلة الأداء.','الاستقطاب والاختيار والتعيين.','تحليل الاحتياجات التدريبية.','تصميم البرامج التدريبية وتنفيذها.','هيكلة الرواتب والأجور.']],
+      ['hr','خدمات الموارد البشرية',['تصميم الهيكل التنظيمي للمنشأة.','إعداد الوصف الوظيفي وأدلة الأداء.','الاستقطاب والاختيار والتعيين.','تحليل الاحتياجات التدريبية.','تصميم البرامج التدريبية وتنفيذها.','هيكلة الرواتب والأجور.']],
       ['◆','خدمات التسويق',['إجراء البحوث والدراسات السوقية.','تصميم وتنفيذ الحملات التسويقية التقليدية والرقمية.','رفع كفاءة فرق التسويق والمبيعات وتطويرها.']],
       ['✎','الخدمات البيئية',['إعداد الخطط والإجراءات البيئية للمنشآت.','دعم الالتزام بالاشتراطات والأنظمة البيئية.','تقييم الأثر البيئي ورفع الجاهزية التشغيلية.','تطوير مبادرات الاستدامة والتحسين البيئي.']],
       ['▭','خدمات الاستشارات التقنية',['تقييم واختيار نظام ERP المناسب.','التحول الرقمي والأتمتة وإدارة المعرفة.','خدمات الذكاء الاصطناعي والتحسين التقني.']],
@@ -81,9 +81,9 @@
     blogTitle: 'محتوى مهني يواكب احتياجات الإدارة والتطوير',
     blogDesc: 'نشارك رؤى عملية تساعد أصحاب القرار على فهم التحديات المؤسسية وتقييم الخيارات بشكل أوضح.',
     blog: [
-      ['أنواع عروض تقديم الخدمات الاستشارية','كيف تختار نموذج العرض المناسب لاحتياج منشأتك؟'],
-      ['منهجية تحديد الاحتياجات التدريبية','خطوات عملية لتحليل الفجوات التدريبية وبناء برامج مؤثرة.'],
-      ['متى تحتاج منشأتك إلى استشارات إدارية؟','علامات تساعدك على معرفة الوقت المناسب لطلب دعم استشاري متخصص.']
+      ['أنواع عروض تقديم الخدمات الاستشارية','كيف تختار نموذج العرض المناسب لاحتياج منشأتك؟','types-of-consulting-offers'],
+      ['منهجية تحديد الاحتياجات التدريبية','خطوات عملية لتحليل الفجوات التدريبية وبناء برامج مؤثرة.','training-needs-methodology'],
+      ['متى تحتاج منشأتك إلى استشارات إدارية؟','علامات تساعدك على معرفة الوقت المناسب لطلب دعم استشاري متخصص.','when-your-company-needs-consulting']
     ],
     ctaKicker: 'ابدأ معنا',
     ctaTitle: 'هل تحتاج تشخيصاً سريعاً أو عرضاً استشارياً أولياً؟',
@@ -101,7 +101,7 @@
     contactKicker: 'تواصل مباشر',
     contactTitle: 'لنبدأ من احتياجك الفعلي',
     contactDesc: 'سواء كنت في مرحلة التأسيس أو التطوير أو إعادة التنظيم، يمكننا مساعدتك في تحديد المسار المناسب وبناء نقطة انطلاق واضحة.',
-    form: ['الاسم','البريد الإلكتروني','رسالتك','إرسال'],
+    form: ['الاسم','رقم الجوال','البريد الإلكتروني','التفاصيل','إرسال'],
     footerAboutTitle: 'عن المكتب',
     footerText: 'درب التحدي للاستشارات الإدارية مكتب سعودي يقدّم خدمات مهنية للشركات والمؤسسات والمستثمرين ورواد الأعمال داخل المملكة العربية السعودية.',
     footerLinks: 'روابط سريعة',
@@ -109,7 +109,7 @@
     footerPolicies: 'سياسات الموقع',
     footerContact: 'معلومات الاتصال',
     location: 'المملكة العربية السعودية',
-    hours: 'الأحد - الخميس 9AM - 5PM',
+    hours: 'الأحد - الخميس من 5PM - 9AM',
     call: 'اتصل',
     advisory: 'استشارة'
   },
@@ -119,7 +119,7 @@
     tagline: 'Consulting | Digital Solutions',
     lang: 'العربية',
     quote: 'Request now',
-    nav: ['Home','About','Services','Training','Our Work','Blog','Certificates','Join Us','Initiatives','Contact'],
+    nav: ['Home','About','Services','Methodology','Partners','Blog','Contact'],
     heroBadge: 'Management consulting and digital transformation in Saudi Arabia',
     heroTitle: 'Advisory solutions that create clearer decisions and faster execution impact',
     heroText: 'We support organizations and entrepreneurs through practical consulting in organizational design, governance, HR, marketing, and technology with deliverables built for action.',
@@ -161,7 +161,7 @@
     request: 'Request now',
     services: [
       ['▦','Organizational building and administrative services',['Strategic planning and KPI development.','Strategic identity and direction design.','Organization structure design.','Policies and regulations development.','Procedure manuals and guides.','Administrative supervision and internal organization support.']],
-      ['●✓','Human resources services',['Organization structure design.','Job descriptions and performance guides.','Attraction, selection, and hiring.','Training needs analysis.','Training program design and delivery.','Compensation structure design.']],
+      ['hr','Human resources services',['Organization structure design.','Job descriptions and performance guides.','Attraction, selection, and hiring.','Training needs analysis.','Training program design and delivery.','Compensation structure design.']],
       ['◆','Marketing services',['Market studies and research.','Traditional and digital campaign design and execution.','Sales and marketing team enablement.']],
       ['✎','Environmental services',['Environmental plans and procedures for organizations.','Support for compliance with environmental regulations and requirements.','Environmental impact assessment and operational readiness improvement.','Sustainability initiatives and environmental improvement programs.']],
       ['▭','Technology consulting services',['ERP assessment and selection.','Digital transformation, automation, and knowledge management.','AI-enabled consulting and optimization services.']],
@@ -195,9 +195,9 @@
     blogTitle: 'Professional content aligned with management and growth needs',
     blogDesc: 'We publish concise insights that help decision-makers understand institutional challenges and evaluate choices more clearly.',
     blog: [
-      ['Types of consulting service proposals','How to choose the right proposal format for your organization.'],
-      ['Training needs analysis methodology','A practical approach to identifying capability gaps and building useful programs.'],
-      ['When does your company need management consulting?','Signals that suggest it is the right time to bring in structured advisory support.']
+      ['Types of consulting service proposals','How to choose the right proposal format for your organization.','types-of-consulting-offers'],
+      ['Training needs analysis methodology','A practical approach to identifying capability gaps and building useful programs.','training-needs-methodology'],
+      ['When does your company need management consulting?','Signals that suggest it is the right time to bring in structured advisory support.','when-your-company-needs-consulting']
     ],
     ctaKicker: 'Start with us',
     ctaTitle: 'Need a quick diagnosis or an initial advisory proposal?',
@@ -215,7 +215,7 @@
     contactKicker: 'Direct contact',
     contactTitle: 'Let’s start from your real business need',
     contactDesc: 'Whether you are building, improving, or reorganizing, we can help define the right path and shape a strong starting point.',
-    form: ['Name','Email','Your message','Send'],
+    form: ['Name','Mobile number','Email','Details','Send'],
     footerAboutTitle: 'About the firm',
     footerText: 'Darb Al-Tahadi is a Saudi advisory firm serving companies, institutions, investors, and entrepreneurs through practical management and business consulting.',
     footerLinks: 'Quick links',
@@ -223,7 +223,7 @@
     footerPolicies: 'Site policies',
     footerContact: 'Contact information',
     location: 'Saudi Arabia',
-    hours: 'Sunday - Thursday 9AM - 5PM',
+    hours: 'Sunday - Thursday from 5PM - 9AM',
     call: 'Call',
     advisory: 'Advisory'
   }
@@ -246,7 +246,89 @@ const renderList = (id, items, mapper) => {
   node.innerHTML = items.map(mapper).join('');
 };
 const card = (html) => `<article class="card fade-in">${html}</article>`;
-const badge = (text) => `<div class="badge-card fade-in"><div class="check center-check">✓</div>${text}</div>`;
+const badge = (text) => `<div class="badge-card fade-in"><div class="context-icon center-check" aria-hidden="true">${badgeIconSvg(text)}</div>${text}</div>`;
+
+function trustIconSvg(index) {
+  const common = 'viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"';
+  switch (index) {
+    case 0:
+      return `<svg ${common}><path d="M24 10v10" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M18 18h12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M15 23h18v12H15z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg>`;
+    case 1:
+      return `<svg ${common}><path d="M24 11c6 0 11 5 11 11s-5 11-11 11-11-5-11-11" stroke="currentColor" stroke-width="3"/><path d="M24 17v7l5 3" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+    case 2:
+      return `<svg ${common}><path d="M14 30l8-8 6 5 8-11" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M31 16h5v5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+    default:
+      return `<svg ${common}><path d="M24 11l3.2 6.6 7.3 1-5.3 5.1 1.3 7.2L24 27.6l-6.5 3.3 1.3-7.2-5.3-5.1 7.3-1L24 11Z" fill="currentColor"/></svg>`;
+  }
+}
+function serviceIconSvg(icon) {
+  const common = 'viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"';
+  switch (icon) {
+    case '◆':
+      return `<svg ${common}><path d="M14 30h20M14 24h20M14 18h12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M34 14l4 4-8 8-5 1 1-5 8-8Z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg>`;
+    case 'hr':
+      return `<svg ${common}><circle cx="24" cy="16" r="5" fill="currentColor"/><path d="M14 34c2-6 6-9 10-9s8 3 10 9" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M32 18l3 3 5-6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+    case '▦':
+      return `<svg ${common}><rect x="14" y="10" width="20" height="28" rx="2" stroke="currentColor" stroke-width="3"/><path d="M20 18h2M26 18h2M20 24h2M26 24h2M20 30h8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>`;
+    case '✎':
+      return `<svg ${common}><path d="M12 31c3-1 6-1 9-1 8 0 12 3 15 5 0-9-4-15-12-18-5-2-9-2-12-2" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M17 22c2 0 4 1 5 3" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>`;
+    case '▭':
+      return `<svg ${common}><rect x="11" y="12" width="26" height="18" rx="2" stroke="currentColor" stroke-width="3"/><path d="M18 36h12M24 30v6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>`;
+    case '▣':
+      return `<svg ${common}><rect x="11" y="15" width="26" height="18" rx="3" stroke="currentColor" stroke-width="3"/><path d="M17 24h6M31 24h0" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>`;
+    case '◌◌':
+      return `<svg ${common}><path d="M17 28c-4 0-7-2-7-5s3-5 7-5c3 0 5 1 6 3" stroke="currentColor" stroke-width="3"/><path d="M31 30c-4 0-7-2-7-5s3-5 7-5 7 2 7 5-3 5-7 5Z" stroke="currentColor" stroke-width="3"/></svg>`;
+    case '⌖':
+      return `<svg ${common}><path d="M24 10v18" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><circle cx="24" cy="15" r="4" fill="currentColor"/><path d="M18 38c0-4 2-8 6-10 4 2 6 6 6 10" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>`;
+    case '◐':
+      return `<svg ${common}><path d="M24 11c-4 0-7 3-7 7 0 2 1 4 2 5l1 1v3h8v-3l1-1c1-1 2-3 2-5 0-4-3-7-7-7Z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M21 33h6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>`;
+    default:
+      return `<svg ${common}><path d="M16 32h16M16 24h16M16 16h10" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>`;
+  }
+}
+
+function contextIconSvg(kind) {
+  const common = 'viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"';
+  const icons = {
+    strategy: `<svg ${common}><path d="M5 19V6h11v13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 9h5M8 13h7M8 17h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`,
+    org: `<svg ${common}><path d="M12 5v4M7 13v6M17 13v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M8 9h8v4H8zM4 19h6M14 19h6" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>`,
+    policy: `<svg ${common}><path d="M7 4h8l3 3v13H7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M15 4v4h3M10 12h5M10 16h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`,
+    training: `<svg ${common}><path d="M4 7l8-3 8 3-8 3-8-3Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M7 10v4c2 2 8 2 10 0v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`,
+    people: `<svg ${common}><circle cx="9" cy="8" r="3" stroke="currentColor" stroke-width="2"/><path d="M4 19c1-4 4-6 7-6 2 0 4 .9 5.4 2.7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M17 8h3M18.5 6.5v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`,
+    market: `<svg ${common}><path d="M4 17l5-5 4 3 7-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 7h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+    environment: `<svg ${common}><path d="M6 18c9 0 12-6 12-13-7 0-12 4-12 10v3Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M6 18c2-4 5-7 9-9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`,
+    tech: `<svg ${common}><rect x="4" y="5" width="16" height="11" rx="2" stroke="currentColor" stroke-width="2"/><path d="M9 20h6M12 16v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`,
+    finance: `<svg ${common}><path d="M5 19V9l7-4 7 4v10" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 19v-6h6v6M10 9h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`,
+    report: `<svg ${common}><path d="M6 4h12v16H6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 15l2-2 2 1 3-4M9 8h4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+    certificate: `<svg ${common}><circle cx="12" cy="9" r="5" stroke="currentColor" stroke-width="2"/><path d="M9 14l-1 6 4-2 4 2-1-6" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>`,
+    default: `<svg ${common}><path d="M6 12h12M12 6v12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`
+  };
+  return icons[kind] || icons.default;
+}
+
+function iconKindForText(text) {
+  const value = String(text).toLowerCase();
+  if (/استراتيجي|مؤشرات|identity|strategic|kpi|planning/.test(value)) return 'strategy';
+  if (/هيكل|هياكل|تنظيم|structure|organization|supervision/.test(value)) return 'org';
+  if (/سياسات|لوائح|أدلة|إجرائية|إجراءات|وصف|polic|procedure|manual|guide|description/.test(value)) return 'policy';
+  if (/تدريب|احتياجات|برامج|training|needs|program|قيادية|leadership/.test(value)) return 'training';
+  if (/استقطاب|اختيار|تعيين|موارد|رواتب|أجور|hiring|selection|compensation|job/.test(value)) return 'people';
+  if (/تسويق|سوق|حملات|مبيعات|market|campaign|sales/.test(value)) return 'market';
+  if (/بيئ|استدامة|environment|sustainability/.test(value)) return 'environment';
+  if (/تقن|رقمي|ذكاء|erp|أتمتة|تحول|نظام|digital|automation|technology|ai/.test(value)) return 'tech';
+  if (/مالي|جدوى|قوائم|تكاليف|تسعير|financial|feasibility|cost|pricing/.test(value)) return 'finance';
+  if (/تقرير|تقارير|زيارات|قياس|توثيق|مخرجات|report|documentation|performance/.test(value)) return 'report';
+  if (/شهاد|اعتماد|iso|certificate|qualification|readiness|governance/.test(value)) return 'certificate';
+  return 'default';
+}
+
+function itemIconSvg(text, fallbackTitle = '') {
+  return contextIconSvg(iconKindForText(`${text} ${fallbackTitle}`));
+}
+
+function badgeIconSvg(text) {
+  return contextIconSvg(iconKindForText(text));
+}
 
 function render() {
   const t = translations[currentLang];
@@ -278,7 +360,7 @@ function render() {
   setText('heroPanelText', t.heroPanelText);
   renderList('heroPoints', t.heroPoints, (item) => `<span class="hero-point">${item}</span>`);
   renderList('heroStats', t.stats, ([value, label]) => `<div class="hero-stat"><b>${value}</b><span>${label}</span></div>`);
-  renderList('trustGrid', t.trust, (item) => `<div class="trust-item fade-in"><span class="check">✓</span>${item}</div>`);
+  renderList('trustGrid', t.trust, (item, index) => `<div class="trust-item fade-in"><span class="trust-icon" aria-hidden="true">${trustIconSvg(index)}</span><span class="trust-text">${item}</span></div>`);
   renderList('statsGrid', t.stats, ([value, label]) => `<div class="stat-card fade-in"><b>${value}</b><span>${label}</span></div>`);
 
   setText('about-kicker', t.aboutKicker);
@@ -286,23 +368,32 @@ function render() {
   setText('about-desc', t.aboutDesc);
   setText('about-lead', t.aboutLead);
   setText('about-text', t.aboutText);
-  renderList('aboutPoints', t.aboutPoints, (item) => `<div class="point"><span class="check">✓</span>${item}</div>`);
+  renderList('aboutPoints', t.aboutPoints, (item) => `<div class="point"><span class="context-icon" aria-hidden="true">${itemIconSvg(item)}</span>${item}</div>`);
   renderList('aboutMini', t.aboutMini, ([title, text]) => `<div class="mini-card"><h3>${title}</h3><p>${text}</p></div>`);
 
   setText('why-kicker', t.whyKicker);
   setText('why-title', t.whyTitle);
   setText('why-desc', t.whyDesc);
-  renderList('whyGrid', t.why, ([title, text], index) => card(`<div class="kicker-number">0${index + 1}</div><h3>${title}</h3><p>${text}</p>`));
+  renderList('whyGrid', t.why, ([title, text], index) => `
+    <article class="card why-card fade-in">
+      <div class="why-number" aria-hidden="true">
+        <span class="why-number-mark">0${index + 1}</span>
+        <span class="why-number-pill">0${index + 1}</span>
+      </div>
+      <h3>${title}</h3>
+      <p>${text}</p>
+    </article>
+  `);
 
   setText('services-kicker', t.servicesKicker);
   setText('services-title', t.servicesTitle);
   setText('services-desc', t.servicesDesc);
   renderList('servicesGrid', t.services, ([icon, title, items]) => `
     <article class="card service-card fade-in">
-      <div class="service-icon">${icon}</div>
+      <div class="service-icon" aria-hidden="true">${serviceIconSvg(icon)}</div>
       <h3>${title}</h3>
-      <ul>${items.map((item) => `<li>${item}</li>`).join('')}</ul>
-      <a class="small-btn" href="consultingorder.html">${t.request}</a>
+      <ul>${items.map((item) => `<li><span class="list-icon" aria-hidden="true">${itemIconSvg(item, title)}</span><span>${item}</span></li>`).join('')}</ul>
+      <a class="small-btn service-request" href="#contact">${t.request}</a>
     </article>
   `);
 
@@ -335,7 +426,7 @@ function render() {
   setText('blog-kicker', t.blogKicker);
   setText('blog-title', t.blogTitle);
   setText('blog-desc', t.blogDesc);
-  renderList('blogGrid', t.blog, ([title, text], index) => `
+  renderList('blogGrid', t.blog, ([title, text, slug], index) => `
     <article class="card blog-card fade-in">
       <div class="blog-image blog-image-${index + 1}"></div>
       <div class="blog-tags">
@@ -346,7 +437,7 @@ function render() {
       <p>${text}</p>
       <div class="blog-meta-row">
         <span>${currentLang === 'ar' ? '6 دقائق قراءة' : '6 min read'}</span>
-        <a href="blog/index.html">${currentLang === 'ar' ? 'اقرأ المزيد' : 'Read more'}</a>
+        <a href="blog/${slug || ''}/">${currentLang === 'ar' ? 'اقرأ المزيد' : 'Read more'}</a>
       </div>
     </article>
   `);
@@ -375,13 +466,16 @@ function render() {
   if (labels[0]) labels[0].textContent = formFields[0];
   if (labels[1]) labels[1].textContent = formFields[1];
   if (labels[2]) labels[2].textContent = formFields[2];
+  if (labels[3]) labels[3].textContent = formFields[3];
   const nameInput = byId('nameInput');
+  const phoneInput = byId('phoneInput');
   const emailInput = byId('emailInput');
   const messageInput = byId('messageInput');
   if (nameInput) nameInput.placeholder = formFields[0];
-  if (emailInput) emailInput.placeholder = formFields[1];
-  if (messageInput) messageInput.placeholder = formFields[2];
-  setText('sendBtn', formFields[3]);
+  if (phoneInput) phoneInput.placeholder = formFields[1];
+  if (emailInput) emailInput.placeholder = formFields[2];
+  if (messageInput) messageInput.placeholder = formFields[3];
+  setText('sendBtn', formFields[4]);
 
   setText('footerAboutTitle', t.footerAboutTitle);
   setText('footerText', t.footerText);
@@ -402,6 +496,16 @@ function render() {
 }
 
 function setupFade() {
+  const elements = [...document.querySelectorAll('.fade-in')];
+  if (!elements.length) return;
+
+  const revealAll = () => elements.forEach((element) => element.classList.add('show'));
+
+  if (!('IntersectionObserver' in window)) {
+    revealAll();
+    return;
+  }
+
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -409,9 +513,17 @@ function setupFade() {
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.12 });
+  }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
 
-  document.querySelectorAll('.fade-in').forEach((element) => observer.observe(element));
+  elements.forEach((element, index) => {
+    if (index < 6) {
+      element.classList.add('show');
+      return;
+    }
+    observer.observe(element);
+  });
+
+  window.setTimeout(revealAll, 1200);
 }
 
 function toggleMenu(open) {
@@ -477,6 +589,243 @@ initMobileMenu();
 initHeroSlider();
 initForm();
 render();
+
+
+
+
+
+
+
+/* Premium interaction layer */
+translations.ar.nav = ['الرئيسية','من نحن','خدماتنا','منهجية العمل','الشركاء','المدونة','تواصل معنا'];
+translations.en.nav = ['Home','About','Services','Methodology','Partners','Blog','Contact'];
+
+const baseRender = render;
+let premiumHandlersBound = false;
+let countersObserver;
+
+function parseCounterValue(value) {
+  const match = String(value).match(/(\d+)(.*)/);
+  return { target: match ? Number(match[1]) : 0, suffix: match ? match[2] : '' };
+}
+
+function counterMarkup(value, label, dark = false) {
+  const parsed = parseCounterValue(value);
+  return `<b class="counter ${dark ? 'counter-dark' : ''}" data-target="${parsed.target}" data-suffix="${parsed.suffix}">0<span class="counter-suffix">${parsed.suffix}</span></b><span>${label}</span>`;
+}
+
+function renderPremiumStats() {
+  const t = translations[currentLang];
+  const heroStats = byId('heroStats');
+  const statsGrid = byId('statsGrid');
+  if (heroStats) {
+    heroStats.innerHTML = t.stats.map(([value, label]) => `<div class="hero-stat"><${'div'}>${counterMarkup(value, label, true)}</${'div'}></div>`).join('');
+  }
+  if (statsGrid) {
+    statsGrid.innerHTML = t.stats.map(([value, label]) => `<div class="stat-card fade-in">${counterMarkup(value, label)}</div>`).join('');
+  }
+}
+
+function initCounters() {
+  countersObserver?.disconnect();
+  countersObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      const node = entry.target;
+      if (node.dataset.done === 'true') return;
+      const target = Number(node.dataset.target || '0');
+      const suffix = node.dataset.suffix || '';
+      const suffixNode = node.querySelector('.counter-suffix');
+      let start = 0;
+      const duration = 1100;
+      const step = Math.max(1, Math.ceil(target / (duration / 16)));
+      const tick = () => {
+        start = Math.min(target, start + step);
+        node.childNodes[0].textContent = String(start);
+        if (suffixNode) suffixNode.textContent = suffix;
+        if (start < target) {
+          requestAnimationFrame(tick);
+        } else {
+          node.dataset.done = 'true';
+        }
+      };
+      requestAnimationFrame(tick);
+      countersObserver.unobserve(node);
+    });
+  }, { threshold: 0.35 });
+
+  document.querySelectorAll('.counter').forEach((counter) => {
+    counter.dataset.done = 'false';
+    countersObserver.observe(counter);
+  });
+}
+
+function initStickyNavAndActiveLinks() {
+  if (premiumHandlersBound) return;
+  premiumHandlersBound = true;
+  const navbar = byId('siteNavbar');
+  const navLinks = [...document.querySelectorAll('.nav-links a[href^="#"]')];
+  const sections = navLinks.map((link) => document.querySelector(link.getAttribute('href'))).filter(Boolean);
+
+  const sync = () => {
+    navbar?.classList.toggle('scrolled', window.scrollY > 18);
+    let activeId = '#home';
+    sections.forEach((section) => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= 140 && rect.bottom >= 140) activeId = `#${section.id}`;
+    });
+    navLinks.forEach((link) => link.classList.toggle('is-active', link.getAttribute('href') === activeId));
+  };
+
+  window.addEventListener('scroll', sync, { passive: true });
+  sync();
+}
+
+function initSmoothAnchors() {
+  document.querySelectorAll('a[href^="#"]').forEach((link) => {
+    if (link.dataset.smoothReady === 'true') return;
+    link.dataset.smoothReady = 'true';
+    link.addEventListener('click', (event) => {
+      const targetSelector = link.getAttribute('href');
+      if (!targetSelector || targetSelector === '#') return;
+      const target = document.querySelector(targetSelector);
+      if (!target) return;
+      event.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+}
+
+function initServiceRequestLinks() {
+  document.querySelectorAll('.service-request').forEach((link) => {
+    if (link.dataset.requestReady === 'true') return;
+    link.dataset.requestReady = 'true';
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      const form = byId('contactForm');
+      const target = form || byId('contact');
+      if (!target) return;
+      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      if (form) {
+        form.classList.add('is-highlighted');
+        window.setTimeout(() => form.classList.remove('is-highlighted'), 1400);
+        window.setTimeout(() => byId('nameInput')?.focus({ preventScroll: true }), 520);
+      }
+    });
+  });
+}
+
+function initEnhancedForm() {
+  const existingForm = byId('contactForm');
+  if (!existingForm) return;
+  const enhancedForm = existingForm.dataset.enhanced === 'true' ? existingForm : (() => {
+    const clone = existingForm.cloneNode(true);
+    clone.dataset.enhanced = 'true';
+    existingForm.parentNode.replaceChild(clone, existingForm);
+    return clone;
+  })();
+
+  const status = byId('formStatus');
+  const fields = [...enhancedForm.querySelectorAll('.input')];
+  const submitButton = enhancedForm.querySelector('button[type="submit"]');
+  const messages = {
+    ar: {
+      error: 'يرجى استكمال جميع الحقول بشكل صحيح.',
+      config: 'لم يتم ضبط رابط Google Apps Script بعد.',
+      sending: 'جار إرسال البيانات...',
+      ok: 'تم إرسال بياناتك بنجاح، وسيتواصل معك فريقنا خلال وقت العمل.',
+      fail: 'تعذر إرسال البيانات حالياً. يرجى المحاولة لاحقاً.'
+    },
+    en: {
+      error: 'Please complete all fields correctly.',
+      config: 'Google Apps Script URL is not configured yet.',
+      sending: 'Sending...',
+      ok: 'Your message has been sent successfully. Our team will contact you during business hours.',
+      fail: 'Unable to send your message now. Please try again later.'
+    }
+  };
+
+  fields.forEach((field) => {
+    field.oninput = () => field.classList.remove('is-invalid');
+  });
+
+  enhancedForm.onsubmit = async (event) => {
+    event.preventDefault();
+    let valid = true;
+    fields.forEach((field) => {
+      const isEmail = field.type === 'email';
+      const filled = field.value.trim().length > 1;
+      const emailOk = !isEmail || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(field.value.trim());
+      const fieldValid = filled && emailOk;
+      field.classList.toggle('is-invalid', !fieldValid);
+      if (!fieldValid) valid = false;
+    });
+    if (!status) return;
+    status.classList.toggle('is-error', !valid);
+    if (!valid) {
+      status.textContent = messages[currentLang].error;
+      return;
+    }
+
+    const endpoint = window.DARB_SITE_CONFIG?.googleSheetsWebAppUrl?.trim();
+    if (!endpoint) {
+      status.classList.add('is-error');
+      status.textContent = messages[currentLang].config;
+      return;
+    }
+
+    const payload = {
+      name: byId('nameInput')?.value.trim() || '',
+      phone: byId('phoneInput')?.value.trim() || '',
+      email: byId('emailInput')?.value.trim() || '',
+      details: byId('messageInput')?.value.trim() || '',
+      page: window.location.href,
+      language: currentLang,
+      submittedAt: new Date().toISOString()
+    };
+
+    status.classList.remove('is-error');
+    status.textContent = messages[currentLang].sending;
+    if (submitButton) submitButton.disabled = true;
+
+    try {
+      await fetch(endpoint, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify(payload)
+      });
+      status.classList.remove('is-error');
+      status.textContent = messages[currentLang].ok;
+      enhancedForm.reset();
+    } catch (error) {
+      status.classList.add('is-error');
+      status.textContent = messages[currentLang].fail;
+    } finally {
+      if (submitButton) submitButton.disabled = false;
+    }
+  };
+}
+
+render = function premiumRender() {
+  baseRender();
+  renderPremiumStats();
+  initCounters();
+  initEnhancedForm();
+  initSmoothAnchors();
+  initServiceRequestLinks();
+  const status = byId('formStatus');
+  if (status) {
+    status.textContent = '';
+    status.classList.remove('is-error');
+  }
+};
+
+render();
+initStickyNavAndActiveLinks();
+
+
+
 
 
 
