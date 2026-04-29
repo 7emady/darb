@@ -3703,22 +3703,11 @@ main section .eyebrow:not(.badge),
     padding: 8px 12px;
   }
   .stats.section-tight {
-    padding-top: 0;
-    padding-bottom: 6px;
+    display: none;
+    padding: 0;
   }
-  .stats-grid {
-    gap: 8px;
-  }
-  .stat-card {
-    padding: 14px 12px;
-    border-radius: 18px;
-  }
-  .stat-card b {
-    font-size: 30px;
-  }
-  .stat-card span {
-    margin-top: 4px;
-    line-height: 1.55;
+  #about.section {
+    padding-top: 34px;
   }
 }
 
@@ -3796,4 +3785,529 @@ main section .eyebrow:not(.badge),
     gap: 8px;
     padding: 14px 0 0;
   }
+}
+
+/* Desktop language switcher */
+@media (min-width: 1181px) {
+  .nav-actions {
+    flex: 0 0 auto;
+  }
+  .nav-actions .lang-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-width: 86px;
+    min-height: 42px;
+    padding: 9px 16px;
+    direction: ltr;
+    border-radius: 6px;
+    border-color: rgba(13, 39, 67, .16);
+    background: #fff;
+    color: var(--navy);
+    box-shadow: 0 10px 24px rgba(8, 26, 47, .08);
+  }
+  .nav-actions .lang-btn:hover {
+    background: #f7fafc;
+    color: var(--orange-strong);
+  }
+}
+
+/* Keep English visual placement aligned with the Arabic layout */
+body.is-english .hero-grid,
+body.is-english .hero-copy {
+  text-align: right;
+}
+body.is-english .hero-copy {
+  align-items: flex-start;
+}
+body.is-english .hero-copy .badge,
+body.is-english .hero p {
+  margin-inline: 0;
+}
+body.is-english .hero-actions,
+body.is-english .hero-links,
+body.is-english .hero-points {
+  justify-content: flex-start;
+}
+body.is-english .footer-brand-block,
+body.is-english .footer-contact-block,
+body.is-english .footer-links-block,
+body.is-english .footer-bottom-bar {
+  text-align: right;
+}
+body.is-english .footer-logo-wrap,
+body.is-english .footer-social-row,
+body.is-english .footer-links-block a,
+body.is-english .footer-bottom-bar,
+body.is-english .footer-bottom-bar div {
+  justify-content: flex-start;
+}
+
+/* Footer logo visibility */
+.footer-logo-wrap {
+  align-items: center;
+  gap: 16px;
+}
+.footer-logo-img {
+  width: 96px;
+  height: 72px;
+  flex: 0 0 96px;
+  display: block;
+  object-fit: contain;
+  padding: 9px;
+  border-radius: 14px;
+  background: #fff !important;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, .18);
+}
+@media (max-width: 700px) {
+  .footer-logo-wrap {
+    gap: 12px;
+  }
+  .footer-logo-img {
+    width: 88px;
+    height: 66px;
+    flex-basis: 88px;
+    padding: 8px;
+  }
+}
+
+/* Match English hero and services to the Arabic visual composition */
+body.is-english .hero-grid,
+body.is-english .hero-copy {
+  justify-items: center;
+  text-align: center;
+}
+body.is-english .hero-copy {
+  justify-self: center;
+  align-items: center;
+  max-width: min(920px, 100%);
+}
+body.is-english .hero-copy .badge,
+body.is-english .hero h1,
+body.is-english .hero p {
+  margin-inline: auto;
+}
+body.is-english .hero h1 {
+  max-width: 15ch;
+  font-size: clamp(42px, 4.55vw, 68px);
+  line-height: 1.2;
+}
+body.is-english .hero p {
+  max-width: 780px;
+  text-align: center;
+}
+body.is-english .hero-actions,
+body.is-english .hero-links,
+body.is-english .hero-points {
+  justify-content: center;
+  align-self: center;
+}
+body.is-english .hero-actions,
+body.is-english .hero-links {
+  flex-direction: row-reverse;
+}
+body.is-english #products .section-heading,
+body.is-english #products .section-heading.center,
+body.is-english #products .section-title,
+body.is-english #products .section-desc {
+  text-align: center;
+  margin-inline: auto;
+}
+body.is-english #products .section-heading {
+  align-items: center;
+  max-width: 980px;
+}
+body.is-english #products .section-title {
+  max-width: 940px;
+  font-size: clamp(34px, 3.4vw, 52px);
+  line-height: 1.28;
+}
+body.is-english #products .section-desc {
+  max-width: 900px;
+  line-height: 1.85;
+}
+@media (max-width: 700px) {
+  body.is-english .hero h1 {
+    max-width: 18ch;
+    font-size: clamp(30px, 8vw, 40px);
+    line-height: 1.24;
+  }
+  body.is-english .hero-actions,
+  body.is-english .hero-links {
+    flex-direction: column;
+  }
+}
+
+/* Absolute last lock for English service cards */
+body.is-english #servicesGrid {
+  direction: rtl;
+}
+body.is-english #servicesGrid .service-card {
+  direction: ltr;
+  text-align: right;
+  align-items: flex-end;
+}
+body.is-english #servicesGrid .service-icon,
+body.is-english #servicesGrid .small-btn {
+  align-self: flex-end;
+}
+body.is-english #servicesGrid .service-card h3,
+body.is-english #servicesGrid .service-card ul {
+  width: 100%;
+  text-align: right;
+}
+body.is-english #servicesGrid .service-card li {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  text-align: right;
+}
+body.is-english #servicesGrid .service-card li span:last-child {
+  flex: 1;
+}
+
+/* Final final English services lock */
+body.is-english #servicesGrid {
+  direction: rtl;
+}
+body.is-english #servicesGrid .service-card {
+  direction: ltr;
+  text-align: right;
+  align-items: flex-end;
+}
+body.is-english #servicesGrid .service-icon,
+body.is-english #servicesGrid .small-btn {
+  align-self: flex-end;
+}
+body.is-english #servicesGrid .service-card h3,
+body.is-english #servicesGrid .service-card ul {
+  width: 100%;
+  text-align: right;
+}
+body.is-english #servicesGrid .service-card li {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  text-align: right;
+}
+body.is-english #servicesGrid .service-card li span:last-child {
+  flex: 1;
+}
+
+/* Final English services lock: mirror Arabic card composition */
+body.is-english #servicesGrid {
+  direction: rtl;
+}
+body.is-english #servicesGrid .service-card {
+  direction: ltr;
+  text-align: right;
+  align-items: flex-end;
+}
+body.is-english #servicesGrid .service-icon,
+body.is-english #servicesGrid .small-btn {
+  align-self: flex-end;
+}
+body.is-english #servicesGrid .service-card h3,
+body.is-english #servicesGrid .service-card ul {
+  width: 100%;
+  text-align: right;
+}
+body.is-english #servicesGrid .service-card li {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  text-align: right;
+}
+body.is-english #servicesGrid .service-card li span:last-child {
+  flex: 1;
+}
+
+/* Hero, buttons, and services text polish */
+.hero-copy {
+  max-width: min(780px, 100%);
+}
+.hero h1 {
+  max-width: 15ch;
+  letter-spacing: 0;
+  text-wrap: balance;
+}
+.hero p {
+  max-width: 760px;
+}
+.hero-actions .btn,
+.cta-band-actions .btn,
+.small-btn,
+.quote-btn {
+  min-height: 46px;
+  line-height: 1.35;
+  text-align: center;
+  white-space: normal;
+}
+.hero-actions {
+  align-items: center;
+}
+#products .section-heading {
+  margin-bottom: 36px;
+}
+#products .section-title {
+  max-width: 920px;
+}
+#products .section-desc {
+  max-width: 860px;
+}
+.service-card {
+  min-height: 390px;
+  text-align: right;
+  align-items: flex-start;
+}
+.service-card h3 {
+  margin-top: 14px;
+  font-size: clamp(22px, 1.7vw, 28px);
+  line-height: 1.35;
+  text-wrap: balance;
+}
+.service-card ul {
+  margin-top: 16px;
+  line-height: 1.75;
+}
+.service-card li {
+  width: 100%;
+}
+.service-card .small-btn {
+  align-self: flex-start;
+  min-width: 132px;
+}
+body.is-english .hero h1 {
+  max-width: 820px;
+  font-size: clamp(38px, 4vw, 60px);
+  line-height: 1.16;
+}
+body.is-english .hero p {
+  max-width: 740px;
+}
+body.is-english .service-card {
+  text-align: right;
+}
+body.is-english .service-card li {
+  flex-direction: row-reverse;
+}
+body.is-english .service-card .small-btn {
+  align-self: flex-start;
+}
+body.is-english #products .section-heading,
+body.is-english #products .section-heading.center {
+  align-items: flex-end;
+  text-align: right;
+}
+body.is-english #products .section-title {
+  max-width: 980px;
+  margin-inline-start: auto;
+  margin-inline-end: 0;
+  text-align: right;
+  font-size: clamp(34px, 3.4vw, 52px);
+  line-height: 1.22;
+}
+body.is-english #products .section-desc {
+  max-width: 980px;
+  margin-inline-start: auto;
+  margin-inline-end: 0;
+  text-align: right;
+  line-height: 1.85;
+}
+@media (min-width: 901px) {
+  body.is-english .hero-grid {
+    grid-template-columns: minmax(0, .92fr) minmax(320px, .78fr);
+    justify-items: stretch;
+    text-align: right;
+  }
+  body.is-english .hero-copy {
+    justify-self: end;
+    align-items: flex-end;
+    text-align: right;
+    max-width: 860px;
+  }
+  body.is-english .hero-copy .badge,
+  body.is-english .hero h1,
+  body.is-english .hero p {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+  body.is-english .hero-actions,
+  body.is-english .hero-links,
+  body.is-english .hero-points {
+    justify-content: flex-end;
+    align-self: flex-end;
+  }
+  body.is-english .hero-actions .btn {
+    min-width: 220px;
+  }
+  body.is-english #products .section-heading {
+    max-width: 1120px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+}
+@media (max-width: 900px) {
+  .hero-copy,
+  body.is-english .hero-copy {
+    align-items: center;
+    text-align: center;
+  }
+  .hero h1,
+  body.is-english .hero h1 {
+    max-width: min(100%, 760px);
+  }
+  .hero p,
+  body.is-english .hero p {
+    margin-inline: auto;
+    max-width: 680px;
+  }
+  .hero-actions,
+  body.is-english .hero-actions {
+    justify-content: center;
+  }
+  body.is-english #products .section-heading,
+  body.is-english #products .section-heading.center,
+  body.is-english #products .section-title,
+  body.is-english #products .section-desc {
+    text-align: center;
+    margin-inline: auto;
+  }
+}
+@media (max-width: 700px) {
+  .hero h1,
+  body.is-english .hero h1 {
+    max-width: 14ch;
+    font-size: clamp(30px, 8vw, 40px);
+    line-height: 1.24;
+  }
+  body.is-english .hero h1 {
+    max-width: 18ch;
+  }
+  .hero p,
+  body.is-english .hero p {
+    max-width: 34ch;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  .hero-actions {
+    gap: 10px;
+  }
+  .hero-actions .btn {
+    width: 100%;
+    min-width: 0;
+    padding: 13px 16px;
+  }
+  #products .section-heading {
+    margin-bottom: 26px;
+  }
+  .service-card {
+    min-height: auto;
+    padding: 20px;
+  }
+  .service-card h3 {
+    font-size: 21px;
+  }
+  .service-card ul {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+}
+
+/* Final English layout lock: mirror Arabic composition */
+body.is-english .hero-grid,
+body.is-english .hero-copy {
+  justify-items: center;
+  text-align: center;
+}
+body.is-english .hero-copy {
+  justify-self: center;
+  align-items: center;
+  max-width: min(920px, 100%);
+}
+body.is-english .hero-copy .badge,
+body.is-english .hero h1,
+body.is-english .hero p {
+  margin-inline: auto;
+}
+body.is-english .hero h1 {
+  max-width: 15ch;
+  font-size: clamp(42px, 4.55vw, 68px);
+  line-height: 1.2;
+}
+body.is-english .hero p {
+  max-width: 780px;
+  text-align: center;
+}
+body.is-english .hero-actions,
+body.is-english .hero-links,
+body.is-english .hero-points {
+  justify-content: center;
+  align-self: center;
+}
+body.is-english .hero-actions,
+body.is-english .hero-links {
+  flex-direction: row-reverse;
+}
+body.is-english #products .section-heading,
+body.is-english #products .section-heading.center,
+body.is-english #products .section-title,
+body.is-english #products .section-desc {
+  align-items: center;
+  text-align: center;
+  margin-inline: auto;
+}
+body.is-english #products .section-heading {
+  max-width: 980px;
+}
+body.is-english #products .section-title {
+  max-width: 940px;
+  font-size: clamp(34px, 3.4vw, 52px);
+  line-height: 1.28;
+}
+body.is-english #products .section-desc {
+  max-width: 900px;
+  line-height: 1.85;
+}
+@media (min-width: 901px) {
+  body.is-english .hero-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+@media (max-width: 700px) {
+  body.is-english .hero h1 {
+    max-width: 18ch;
+    font-size: clamp(30px, 8vw, 40px);
+    line-height: 1.24;
+  }
+  body.is-english .hero-actions,
+  body.is-english .hero-links {
+    flex-direction: column;
+  }
+}
+
+/* Services cards must visually follow the Arabic layout in English too */
+body.is-english #servicesGrid {
+  direction: rtl;
+}
+body.is-english #servicesGrid .service-card {
+  direction: ltr;
+  text-align: right;
+  align-items: flex-end;
+}
+body.is-english #servicesGrid .service-icon,
+body.is-english #servicesGrid .small-btn {
+  align-self: flex-end;
+}
+body.is-english #servicesGrid .service-card h3,
+body.is-english #servicesGrid .service-card ul {
+  width: 100%;
+  text-align: right;
+}
+body.is-english #servicesGrid .service-card li {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  text-align: right;
+}
+body.is-english #servicesGrid .service-card li span:last-child {
+  flex: 1;
 }

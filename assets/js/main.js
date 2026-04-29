@@ -1137,6 +1137,14 @@ translations.en.nav = [
   "Blog",
   "Contact",
 ];
+translations.ar.footerQuickLinks = ["الرئيسية", "من نحن", "الخدمات", "المدونة"];
+translations.en.footerQuickLinks = ["Home", "About", "Services", "Blog"];
+translations.ar.footerPageLinks = ["طلب استشارة", "الأفرع", "سياسة الخصوصية"];
+translations.en.footerPageLinks = ["Request advisory", "Branches", "Privacy policy"];
+translations.ar.footerPolicyLink = "سياسة الخصوصية";
+translations.en.footerPolicyLink = "Privacy policy";
+translations.ar.footerCopyright = "© 2026 درب التحدي للاستشارات الإدارية جميع الحقوق محفوظة.";
+translations.en.footerCopyright = "© 2026 Darb Al-Tahadi Management Consulting. All rights reserved.";
 
 const baseRender = render;
 let premiumHandlersBound = false;
@@ -1175,6 +1183,30 @@ function renderPremiumStats() {
       )
       .join("");
   }
+}
+
+function renderFooterLinks() {
+  const t = translations[currentLang];
+  document.querySelectorAll("[data-footer-quick-index]").forEach((node) => {
+    const index = Number(node.getAttribute("data-footer-quick-index"));
+    if (!Number.isNaN(index) && t.footerQuickLinks?.[index]) {
+      node.textContent = t.footerQuickLinks[index];
+    }
+  });
+  document.querySelectorAll("[data-footer-page-index]").forEach((node) => {
+    const index = Number(node.getAttribute("data-footer-page-index"));
+    if (!Number.isNaN(index) && t.footerPageLinks?.[index]) {
+      node.textContent = t.footerPageLinks[index];
+    }
+  });
+  document.querySelectorAll("[data-footer-policy-link]").forEach((node) => {
+    node.textContent = t.footerPolicyLink;
+  });
+  setText("footerCopyright", t.footerCopyright);
+}
+
+function syncVisualLanguageMode() {
+  document.body.classList.toggle("is-english", currentLang === "en");
 }
 
 function initCounters() {
@@ -1389,6 +1421,8 @@ function initEnhancedForm() {
 
 render = function premiumRender() {
   baseRender();
+  renderFooterLinks();
+  syncVisualLanguageMode();
   renderPremiumStats();
   initCounters();
   initEnhancedForm();
