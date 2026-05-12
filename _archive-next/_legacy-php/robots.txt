@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://darb-altahadi.sa/sitemap.xml

@@ -1,4 +1,4 @@
 ﻿User-agent: *
 Allow: /
 Disallow: /admin/
-Sitemap: https://darb-altahadi.sa/sitemap.xml
+Sitemap: https://darbaltahaddi.sa/sitemap.xml

@@ -7,13 +7,27 @@
     quote: "اطلب الآن",
     nav: [
       "الرئيسية",
-      "من نحن",
-      "خدماتنا",
-      "منهجية العمل",
-      "الشركاء",
-      "المدونة",
+      "الخدمات",
       "تواصل معنا",
     ],
+    simpleNav: {
+      menuTitle: "أين تريد الذهاب؟",
+      moreTitle: "روابط إضافية",
+      cta: "طلب استشارة",
+      about: "من نحن",
+      why: "لماذا نحن",
+      certificates: "التوثيق",
+      blog: "المدونة",
+      branches: "الأفرع",
+      kicker: "اختصر الطريق",
+      title: "اختر ما تحتاجه الآن",
+      services: "الخدمات",
+      servicesText: "تعرف على المسارات المناسبة",
+      request: "طلب استشارة",
+      requestText: "ابدأ بخطوة عملية واضحة",
+      contact: "تواصل مباشر",
+      contactText: "اتصال، واتساب، أو نموذج سريع",
+    },
     heroBadge: "استشارات إدارية وتحول رقمي في السعودية",
     heroTitle: "حلول استشارية تصنع وضوح القرار وتسرّع أثر التنفيذ",
     heroText:
@@ -99,93 +113,80 @@
       ],
     ],
     servicesKicker: "مسارات الخدمة",
-    servicesTitle: "خدمات استشارية متخصصة تغطي الاحتياج الإداري والتشغيلي",
+    servicesTitle: "خدمات استشارية متخصصة لاحتياجك الإداري والتشغيلي",
     servicesDesc:
       "صممنا باقة خدمات متنوعة تساعد المنشآت على بناء الأساس المؤسسي، رفع الجاهزية، وتحسين الكفاءة في الممارسة اليومية.",
     request: "اطلب الآن",
     services: [
       [
-        "▦",
-        "البناء المؤسسي والخدمات الإدارية",
+        "◇",
+        "خدمات التأسيس والتراخيص الحكومية",
         [
-          "التخطيط الاستراتيجي وبناء مؤشرات الأداء.",
-          "بناء الهوية الاستراتيجية وفق نماذج عملية.",
-          "تصميم الهياكل التنظيمية.",
-          "بناء السياسات واللوائح.",
-          "إعداد الأدلة الإجرائية.",
-          "الإشراف الإداري ودعم التنظيم الداخلي.",
+          "إصدار السجل التجاري وحجز وتسجيل الاسم التجاري.",
+          "إصدار الرخصة البلدية والتراخيص الحكومية حسب النشاط.",
+          "فتح ملف منشأة لدى الجهات الرسمية ذات العلاقة.",
+          "تعديل وتجديد السجلات التجارية والرخص والتراخيص.",
+          "متابعة الطلبات عبر منصة المركز السعودي للأعمال وبلدي ووزارة التجارة.",
+          "التنسيق مع وزارة الشؤون البلدية والقروية والإسكان للمتطلبات البلدية.",
         ],
       ],
       [
         "hr",
         "خدمات الموارد البشرية",
         [
-          "تصميم الهيكل التنظيمي للمنشأة.",
-          "إعداد الوصف الوظيفي وأدلة الأداء.",
-          "الاستقطاب والاختيار والتعيين.",
-          "تحليل الاحتياجات التدريبية.",
-          "تصميم البرامج التدريبية وتنفيذها.",
-          "هيكلة الرواتب والأجور.",
+          "إدارة خدمات قوى ومدد ومسار ومتابعة المتطلبات النظامية ذات العلاقة.",
+          "إدارة بيانات الموظفين وملفاتهم وتنظيم دورة حياتهم الوظيفية.",
+          "خدمات التوظيف والتأشيرات والاستقطاب والتعيين.",
+          "إعداد وإدارة العقود وتنظيم العلاقات العمالية.",
+          "إدارة الرواتب والأجور والبدلات والمتغيرات الشهرية.",
+          "متابعة الامتثال لأنظمة العمل والتأمينات ومتطلبات الموارد البشرية.",
         ],
       ],
       [
         "◆",
         "خدمات التسويق",
         [
-          "إجراء البحوث والدراسات السوقية.",
-          "تصميم وتنفيذ الحملات التسويقية التقليدية والرقمية.",
-          "رفع كفاءة فرق التسويق والمبيعات وتطويرها.",
+          "بناء الهوية الرقمية للعلامة التجارية وتوحيد حضورها الإلكتروني.",
+          "إعداد بروفايل احترافي للشركات يعرض الخدمات والميزة التنافسية.",
+          "تصميم وتطوير موقع إلكتروني متوافق مع احتياج المنشأة وتجربة العميل.",
+          "تقديم خدمة البوت الذكي ومساعد المبيعات للرد الآلي وتحسين التحويل.",
+          "إدارة الصفحات الإلكترونية وكتابة محتوى تسويقي مناسب للجمهور المستهدف.",
+          "التصوير الفوتوغرافي للعلامة التجارية وتصوير الدرون للمواقع والفعاليات.",
         ],
       ],
       [
         "✎",
         "الخدمات البيئية",
         [
-          "إعداد الخطط والإجراءات البيئية للمنشآت.",
-          "دعم الالتزام بالاشتراطات والأنظمة البيئية.",
-          "تقييم الأثر البيئي ورفع الجاهزية التشغيلية.",
-          "تطوير مبادرات الاستدامة والتحسين البيئي.",
+          "إصدار وتجديد التراخيص البيئية ومتابعة متطلبات الجهات المختصة.",
+          "إعداد دراسات الأثر البيئي (EIA) والتقارير الفنية الداعمة.",
+          "الامتثال والتدقيق البيئي ورفع جاهزية المنشأة للمتطلبات النظامية.",
+          "إدارة النفايات والتصاريح البيئية المرتبطة بالتشغيل.",
+          "معالجة المخالفات البيئية ومتابعة ملاحظات التفتيش حتى الإغلاق.",
+          "الاستشارات البيئية والاستدامة عبر منصات بيئتي وأثر وبلدي والالتزام.",
         ],
       ],
       [
-        "▭",
-        "خدمات الاستشارات التقنية",
+        "▤",
+        "خدمات الجودة والمطابقة",
         [
-          "تقييم واختيار نظام ERP المناسب.",
-          "التحول الرقمي والأتمتة وإدارة المعرفة.",
-          "خدمات الذكاء الاصطناعي والتحسين التقني.",
+          "تأهيل وتطبيق أنظمة الأيزو (ISO) بما يتناسب مع نشاط المنشأة.",
+          "إصدار شهادات الأيزو مثل الجودة والبيئة والسلامة.",
+          "تنفيذ التدقيق الداخلي والتجهيز للتدقيق الخارجي.",
+          "خدمات الهيئة السعودية للمواصفات والمقاييس والجودة (SASO).",
+          "تسجيل المنتجات والحصول على شهادات المطابقة.",
         ],
       ],
       [
         "▣",
-        "الخدمات المالية",
+        "الخدمات المالية ودراسات الجدوى",
         [
-          "إعداد دراسات الجدوى.",
-          "تصميم النظم المالية.",
-          "مراجعة وتدقيق القوائم المالية السنوية.",
-          "ضبط التكاليف والتسعير.",
+          "إعداد دراسات جدوى تساعد على تقييم فرص الاستثمار واتخاذ القرار.",
+          "تصميم النظم المالية والإجراءات المحاسبية المناسبة لطبيعة النشاط.",
+          "مراجعة القوائم المالية السنوية وتجهيز الملاحظات والتحسينات المطلوبة.",
+          "تحليل التكاليف ووضع نماذج تسعير تدعم الربحية والاستدامة.",
+          "إعداد تقارير مالية مبسطة تساعد الإدارة على متابعة الأداء.",
         ],
-      ],
-      [
-        "◌◌",
-        "الجلسات الاستشارية عن بعد",
-        [
-          "جلسات مباشرة للإجابة على الأسئلة وتحليل التحديات.",
-          "توصيات عملية مختصرة تساعد على تسريع القرار.",
-        ],
-      ],
-      [
-        "⌖",
-        "الزيارات الميدانية والتقارير",
-        [
-          "زيارات لفهم الواقع التشغيلي وجمع الملاحظات.",
-          "إعداد تقارير تتضمن النتائج والتوصيات وخارطة التحسين.",
-        ],
-      ],
-      [
-        "◐",
-        "الابتكار وريادة الأعمال",
-        ["بناء النماذج الأولية.", "تطوير الأعمال وفرص النمو."],
       ],
     ],
     journeyKicker: "منهجية العمل",
@@ -323,13 +324,27 @@
     quote: "Request now",
     nav: [
       "Home",
-      "About",
       "Services",
-      "Methodology",
-      "Partners",
-      "Blog",
       "Contact",
     ],
+    simpleNav: {
+      menuTitle: "Where would you like to go?",
+      moreTitle: "More links",
+      cta: "Request advisory",
+      about: "About",
+      why: "Why us",
+      certificates: "Credentials",
+      blog: "Blog",
+      branches: "Branches",
+      kicker: "Quick path",
+      title: "Choose what you need now",
+      services: "Services",
+      servicesText: "Find the right consulting track",
+      request: "Request advisory",
+      requestText: "Start with a clear practical step",
+      contact: "Direct contact",
+      contactText: "Call, WhatsApp, or quick form",
+    },
     heroBadge:
       "Management consulting and digital transformation in Saudi Arabia",
     heroTitle:
@@ -424,95 +439,79 @@
     ],
     servicesKicker: "Service tracks",
     servicesTitle:
-      "Specialized consulting services across management and operations",
+      "Specialized consulting services for management and operations",
     servicesDesc:
       "Our services are designed to help organizations build stronger foundations, increase readiness, and improve day-to-day efficiency across critical business functions.",
     request: "Request now",
     services: [
       [
-        "▦",
-        "Organizational building and administrative services",
+        "◇",
+        "Business setup and government licensing services",
         [
-          "Strategic planning and KPI development.",
-          "Strategic identity and direction design.",
-          "Organization structure design.",
-          "Policies and regulations development.",
-          "Procedure manuals and guides.",
-          "Administrative supervision and internal organization support.",
+          "Commercial registration issuance and trade name reservation and registration.",
+          "Municipal license issuance and activity-based government licenses.",
+          "Opening establishment files with relevant official authorities.",
+          "Amending and renewing commercial records, licenses, and permits.",
+          "Application follow-up through the Saudi Business Center, Balady, and Ministry of Commerce platforms.",
+          "Coordination with the Ministry of Municipalities and Housing for municipal requirements.",
         ],
       ],
       [
         "hr",
         "Human resources services",
         [
-          "Organization structure design.",
-          "Job descriptions and performance guides.",
-          "Attraction, selection, and hiring.",
-          "Training needs analysis.",
-          "Training program design and delivery.",
-          "Compensation structure design.",
+          "Managing Qiwa, Mudad, and Masar services and related regulatory requirements.",
+          "Employee data, records, and employee lifecycle administration.",
+          "Recruitment, visas, attraction, selection, and onboarding support.",
+          "Employment contract administration and labor relations support.",
+          "Payroll, wages, allowances, and monthly variable management.",
+          "HR compliance follow-up for labor, social insurance, and workforce requirements.",
         ],
       ],
       [
         "◆",
         "Marketing services",
         [
-          "Market studies and research.",
-          "Traditional and digital campaign design and execution.",
-          "Sales and marketing team enablement.",
+          "Digital brand identity development and consistent online presence.",
+          "Professional company profile preparation for services and positioning.",
+          "Website design and development aligned with business and customer needs.",
+          "Smart bot and sales assistant services for automated response and conversion support.",
+          "Social page management and marketing content writing for target audiences.",
+          "Brand photography and drone shoots for locations, products, and events.",
         ],
       ],
       [
         "✎",
         "Environmental services",
         [
-          "Environmental plans and procedures for organizations.",
-          "Support for compliance with environmental regulations and requirements.",
-          "Environmental impact assessment and operational readiness improvement.",
-          "Sustainability initiatives and environmental improvement programs.",
+          "Issuing and renewing environmental licenses and following up with relevant authorities.",
+          "Environmental Impact Assessment (EIA) studies and supporting technical reports.",
+          "Environmental compliance audits and readiness improvement for regulatory requirements.",
+          "Waste management and environmental permits related to operations.",
+          "Handling environmental violations and inspection remarks through closure.",
+          "Environmental and sustainability advisory across Beeati, Athar, Balady, and compliance platforms.",
         ],
       ],
       [
-        "▭",
-        "Technology consulting services",
+        "▤",
+        "Quality and conformity services",
         [
-          "ERP assessment and selection.",
-          "Digital transformation, automation, and knowledge management.",
-          "AI-enabled consulting and optimization services.",
+          "ISO system qualification and implementation aligned with the organization's activity.",
+          "Issuing ISO certificates such as quality, environment, and safety.",
+          "Internal audits and preparation for external audits.",
+          "Saudi Standards, Metrology and Quality Organization (SASO) services.",
+          "Product registration and conformity certificate support.",
         ],
       ],
       [
         "▣",
-        "Financial services",
+        "Financial services and feasibility studies",
         [
-          "Feasibility studies.",
-          "Financial systems design.",
-          "Annual financial statements review support.",
-          "Cost control and pricing.",
-        ],
-      ],
-      [
-        "◌◌",
-        "Remote advisory sessions",
-        [
-          "Live sessions to answer questions and analyze challenges.",
-          "Short practical recommendations that accelerate decisions.",
-        ],
-      ],
-      [
-        "⌖",
-        "Field visits and advisory reports",
-        [
-          "Field visits to understand operational reality.",
-          "Reports with findings, recommendations, and improvement roadmap.",
-        ],
-      ],
-      [
-        "◐",
-        "Innovation and entrepreneurship",
-        [
-          "Prototype support.",
-          "Business development and growth opportunities.",
+          "Feasibility studies to evaluate investment opportunities and support decisions.",
+          "Financial systems and accounting procedure design aligned with business activity.",
+          "Annual financial statement review with required notes and improvement actions.",
+          "Cost analysis and pricing models that support profitability and sustainability.",
+          "Simple financial reports that help management track performance.",
         ],
       ],
     ],
@@ -685,6 +684,8 @@ function serviceIconSvg(icon) {
   switch (icon) {
     case "◆":
       return `<svg ${common}><path d="M14 30h20M14 24h20M14 18h12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M34 14l4 4-8 8-5 1 1-5 8-8Z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg>`;
+    case "◇":
+      return `<svg ${common}><rect x="12" y="15" width="24" height="22" rx="3" stroke="currentColor" stroke-width="3"/><path d="M18 15v-3h12v3M18 23h12M18 30h8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M31 29l3 3 5-7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
     case "hr":
       return `<svg ${common}><circle cx="24" cy="16" r="5" fill="currentColor"/><path d="M14 34c2-6 6-9 10-9s8 3 10 9" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M32 18l3 3 5-6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
     case "▦":
@@ -693,6 +694,8 @@ function serviceIconSvg(icon) {
       return `<svg ${common}><path d="M12 31c3-1 6-1 9-1 8 0 12 3 15 5 0-9-4-15-12-18-5-2-9-2-12-2" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M17 22c2 0 4 1 5 3" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>`;
     case "▭":
       return `<svg ${common}><rect x="11" y="12" width="26" height="18" rx="2" stroke="currentColor" stroke-width="3"/><path d="M18 36h12M24 30v6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>`;
+    case "▤":
+      return `<svg ${common}><rect x="12" y="10" width="24" height="30" rx="3" stroke="currentColor" stroke-width="3"/><path d="M18 18h12M18 25h12M18 32h7" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M31 31l3 3 5-7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
     case "▣":
       return `<svg ${common}><rect x="11" y="15" width="26" height="18" rx="3" stroke="currentColor" stroke-width="3"/><path d="M17 24h6M31 24h0" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>`;
     case "◌◌":
@@ -804,6 +807,21 @@ function render() {
 
   setText("langBtn", t.lang);
   setText("quoteBtnText", t.quote);
+  setText("mobileMenuTitle", t.simpleNav?.menuTitle);
+  setText("mobileMenuMoreTitle", t.simpleNav?.moreTitle);
+  setText("mobileMenuCta", t.simpleNav?.cta);
+  document.querySelectorAll("[data-simple-link]").forEach((node) => {
+    const key = node.getAttribute("data-simple-link");
+    if (key && t.simpleNav?.[key]) node.textContent = t.simpleNav[key];
+  });
+  setText("simplePathKicker", t.simpleNav?.kicker);
+  setText("simplePathTitle", t.simpleNav?.title);
+  setText("simplePathServices", t.simpleNav?.services);
+  setText("simplePathServicesText", t.simpleNav?.servicesText);
+  setText("simplePathRequest", t.simpleNav?.request);
+  setText("simplePathRequestText", t.simpleNav?.requestText);
+  setText("simplePathContact", t.simpleNav?.contact);
+  setText("simplePathContactText", t.simpleNav?.contactText);
   setText("topLocation", t.location);
   setText("topHours", t.hours);
 
@@ -1121,20 +1139,12 @@ render();
 /* Premium interaction layer */
 translations.ar.nav = [
   "الرئيسية",
-  "من نحن",
-  "خدماتنا",
-  "منهجية العمل",
-  "الشركاء",
-  "المدونة",
+  "الخدمات",
   "تواصل معنا",
 ];
 translations.en.nav = [
   "Home",
-  "About",
   "Services",
-  "Methodology",
-  "Partners",
-  "Blog",
   "Contact",
 ];
 translations.ar.footerQuickLinks = ["الرئيسية", "من نحن", "الخدمات", "المدونة"];

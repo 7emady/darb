@@ -1,1 +1,0 @@
-﻿/* static blog list helper */

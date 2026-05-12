@@ -1,1 +1,0 @@
-﻿/* static legal page helper */
