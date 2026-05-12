@@ -4260,6 +4260,31 @@ body.is-english #servicesGrid .service-card li span:last-child {
   }
 }
 
+/* Mobile logo position */
+@media (max-width: 700px) {
+  .nav-exact-header {
+    grid-template-columns: minmax(0, 1fr) auto;
+    direction: rtl;
+  }
+  .brand {
+    justify-self: start;
+    justify-content: flex-start;
+    flex-direction: row;
+    text-align: right;
+  }
+  .brand div {
+    min-width: 0;
+    text-align: right;
+  }
+  .brand img {
+    width: 60px;
+    height: 46px;
+  }
+  .nav-actions {
+    justify-self: end;
+  }
+}
+
 /* Launch mobile polish */
 @media (max-width: 700px) {
   html,
