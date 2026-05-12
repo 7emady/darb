@@ -2584,7 +2584,17 @@ body.is-loading { overflow: hidden; }
 .page-boxes { gap: 24px; }
 .page-panel { padding: 28px; border-radius: 28px; }
 .page-note { background: linear-gradient(180deg, #0b2340, #0f2f52); }
-.page-note p { color: rgba(255,255,255,.74); }
+.page-note h2,
+.page-note h3 {
+  color: #fff;
+}
+.page-note p,
+.page-note li {
+  color: rgba(255,255,255,.84);
+}
+.page-note li::before {
+  background: var(--orange);
+}
 .info-pills { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
 .info-pills span { padding: 10px 14px; border-radius: 999px; background: rgba(242,138,35,.1); color: var(--orange-strong); font-size: 13px; font-weight: 800; }
 .fade-in { transition: opacity .75s ease, transform .75s ease; }
@@ -4422,6 +4432,28 @@ body.is-english #servicesGrid .service-card li span:last-child {
   .consulting-page .info-pills {
     justify-content: center;
   }
+}
+
+/* Keep dark advisory cards readable */
+.page-note,
+.consulting-page .page-note {
+  color: #fff;
+}
+.page-note h2,
+.page-note h3,
+.consulting-page .page-note h2,
+.consulting-page .page-note h3 {
+  color: #fff;
+}
+.page-note p,
+.page-note li,
+.consulting-page .page-note p,
+.consulting-page .page-note li {
+  color: rgba(255, 255, 255, .88);
+}
+.page-note li::before,
+.consulting-page .page-note li::before {
+  background: var(--orange);
 }
 
 /* Launch mobile polish */
